@@ -34,3 +34,19 @@ nav ul li:last-child {
 nav ul li a {
     text-decoration: none;
 }
+
+
+
+.message {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.message.-left i {
+    margin-right: 2rem;
+    transform: scaleX(-1);
+}
+
+.message.-left i > img {
+    height: 100px;
+}
