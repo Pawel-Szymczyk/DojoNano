@@ -5,10 +5,11 @@ body {
     font-family: 'Press Start 2P';
 }
 
-.nes-container {
+.article-container {
     margin: 0 50px 50px 50px;
 }
 
+/* header iamge */
 .website-header-img {
     object-fit: cover;
     object-position: 0 90%;
@@ -16,6 +17,7 @@ body {
     height: 530px;
 }
 
+/* Navigation bar */
 nav ul {
     list-style-type: none;
     background-color: #212529;
@@ -27,14 +29,12 @@ nav ul li {
     display: inline;
 }
 
-
-
 nav ul li a {
     text-decoration: none;
 }
 
 
-
+/* good-advice.html - advice message */
 .message {
     display: flex;
     margin-top: 2rem;
